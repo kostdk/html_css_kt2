@@ -1,0 +1,99 @@
+.padt-150{
+    padding-top:150px ;
+}
+.padt-70{
+    padding-top:70px ;
+}
+.mt{
+    margin-top: 20px;
+}
+
+.p-30{
+    padding: 30px 30px 30px 30px;
+}
+
+.ml{
+    margin-left:auto;
+}
+.mr{
+    margin-right: auto;
+}
+.padb-70{
+    padding-bottom: 70px;
+}
+.t-col{
+    color: white;
+}
+.t-family{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.t-large{
+    font-size: 22px;
+}
+.t-center{
+    text-align: center;
+ }
+.block_text{
+    background-color: aqua;
+}
+.first-block{
+    background-image: url("./img/bg.jpg");
+    max-width: 1400px;
+    min-height: 600px;
+    align-items: center;
+}
+
+.four-blocks{
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: repeat(4, 20%);
+    row-gap: 150px;
+    column-gap: 50px;
+}
+.button__learn-more{
+    background-color: rgb(21, 206, 144);
+    color: white;
+    border-radius: 30px;
+    padding: 7px 25px 7px 25px;
+   
+    border-style: hidden;
+}
+
+.second-block{
+    padding-top: 20px;
+    max-width: 1200px;
+    display: grid;
+    gap: 20px;
+    grid-template-areas:
+    "A A A A A A A A A B "
+    "A A A A A A A A A B "
+    "C D D D D D D D D D"
+    "C D D D D D D D D D"
+    ;
+}
+
+
+.green_line{
+    height: 5px;
+    width: 150px;
+    background-color: green;
+}
+.second_image_left{
+    grid-area: A;
+    
+}
+.second_text_right{
+    background-color: rgb(202, 202, 202);
+    grid-area: B;
+}
+.second_text_left{
+    color: black;
+    font-size: 30px;
+    grid-area: C;
+    border-color: green;
+    border-width: 5px;
+    border-style: solid;
+}
+.second_image_right{
+    grid-area: D;
+}
